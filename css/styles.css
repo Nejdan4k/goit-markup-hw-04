@@ -405,6 +405,15 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* footer*/
+.footercon{
+  display: flex;
+  align-items:baseline;
+}
+
+
+.footer-container{
+  margin-right: 120px;
+}
 
 .icon-svg-footer{
   fill:#f4f4fd;
@@ -457,22 +466,17 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .icons-footer{
     display: flex;
-align-items: flex-start;
-justify-content: flex-start;
-flex-direction: row;
-gap: 16px;
+    gap: 16px;
 }
 
 
-  .footercon{
-    display: flex;
-    align-items: baseline;
-    margin-right: 120px;
-  }
+ 
   .par-network{
     font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #fff;
+margin-bottom: 16px;
+font-style: normal;
   }
