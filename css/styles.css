@@ -406,38 +406,9 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 /* footer*/
 
-.social-network-footer{
-  margin-right: 120px;
-  display: flex;
-  align-items:baseline;
-}
-
-.footercon{
-  display: flex;
- 
- margin-right: 120px;
-}
-
-
-.footer-container{
-  margin-right: 120px;
-}
-
-.icon-svg-footer{
-  fill:#f4f4fd;
-}
 .page-footer{
   background-color:#2e2f42;
   padding: 100px 0;
-}
-.for-you{
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color:#F4F4FD;
-  display: block;
-  max-width: 264px;
-  margin-bottom: 16px
 }
 .footer-logo{
   font-family: "Raleway", sans-serif;
@@ -451,40 +422,56 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-block;
   margin-bottom: 16px;
 }
+.for-you{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color:#F4F4FD;
+  max-width: 264px;
+  margin-bottom: 16px
+}
 .logo-part{
-  color: #f4f4fd;
+ color: #f4f4fd;
 }
-.media-icons:hover,
-.media-icons:focus{
-  background-color: #31d0aa;
-}
-.media-icons{
-  width: 100%;
-  height: 100%;
-  background-color: #4d5ae5;
-  border-radius: 50%;
+.footercon{
   display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  align-items:baseline;
 }
-.icon-footer{
-  width: 40px;
-  height: 40px;
-  }
-  .icons-footer{
-    display: flex;
-    gap: 16px;
+.footer-container{
+margin-right: 120px;
 }
-
-
- 
-  .par-network{
-    font-weight: 500;
+.par-network{
+  font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #fff;
 margin-bottom: 16px;
-font-style: normal;
+}
+.icons-footer{
+  display: flex;
+  gap: 16px;
+}
+.icon-footer{
+  width: 40px;
+  height: 40px;
   }
+  .media-icons{
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .media-icons:hover,
+  .media-icons:focus{
+    background-color: #31d0aa;
+  }
+
+.icon-svg-footer{
+  fill:var(--color-icon, #f4f4fd);
+}
