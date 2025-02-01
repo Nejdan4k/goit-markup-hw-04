@@ -407,18 +407,20 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 /* footer*/
 
 .icon-svg-footer{
-  fill:#f4f4fd
+  fill:#f4f4fd;
 }
 .page-footer{
   background-color:#2e2f42;
   padding: 100px 0;
 }
 .for-you{
+  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color:#F4F4FD;
   display: block;
   max-width: 264px;
+  margin-bottom: 16px
 }
 .footer-logo{
   font-family: "Raleway", sans-serif;
@@ -461,10 +463,16 @@ flex-direction: row;
 gap: 16px;
 }
 
-  .footer-container{
-    margin-right: 120px;
-  }
+
   .footercon{
     display: flex;
-    align-items: baseline
+    align-items: baseline;
+    margin-right: 120px;
+  }
+  .par-network{
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #fff;
   }
