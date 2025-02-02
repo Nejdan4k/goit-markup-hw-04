@@ -473,5 +473,5 @@ margin-bottom: 16px;
   }
 
       .icons-svg-footer {
-        fill: #fdf4f7;
+        fill: var(--color3, #f4f4fd);
       }
